@@ -1,0 +1,30 @@
+
+
+repo github                     local
+    -------------------->clone
+                                file1,txt, file2.txt
+      2files         commit<-----------------                 
+      file3.txt 
+
+
+repo                        local (file1, file2, file4)
+
+file1
+file2
+
+
+file3 
+
+file4
+
+
+option 1
+file1, file2, file4
+
+git push -f
+
+option 2
+
+git pull
+
+git push
